@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/justufy-content.css">
+  <script src="./assets/app.js" defer></script>
+
+  <!--CDN FONT-AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <title> MUSEU NACIONAL </title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <h1><a href="#">Museu Nacional</a></h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Eposições</a></li>
+          <li><a href="#">Pesquisa</a></li>
+          <li><a href="#">Acervo</a></li>
+          <li><a href="#">Vídeos</a></li>
+          <li><a href="#">Fotos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="principal">
+      <div id="conteudo">
+        <section id="capa">
+          <img src="/assets/img/museu.png" alt="">
+        </section>
+
+        <section id="postagens">
+            <article id="video">
+              <h3>VIDEO CONHEÇA O MUSEU</h3>
+              <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </article>
+
+            <article id="mapa">
+              <h3>MAPA ENCONTRE O MUSEU</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5228931428114!2d-46.61429242684512!3d-23.585573015569462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5be650476023%3A0x2c33390e6e3805b1!2sMuseu%20do%20Ipiranga%20-%20USP!5e0!3m2!1spt-BR!2sbr!4v1694562462701!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+
+            <article id="exposicoes">
+              <h3>Exposições</h3>
+              <ul>
+                <li><a href="#">Os assustadores insetos</a></li>
+                <li><a href="#">O crânio de Luiza Rhbyt</a></li>
+
+                <li><a href="#">Preguisa gigante e Rato Loy</a></li>
+
+                <li><a href="#">Plantas do Brasil Central</a></li>
+
+                <li><a href="#">Tereza Cristina: A imperatriz</a></li>
+
+                <li><a href="#">Os assustadores insetos</a></li>
+                <li><a href="">Arte com dinossauros - Paleoarte</a></li>
+
+                <li><a href=""><strong> Veja todos (65)</strong></a></li>
+
+                
+              </ul>
+            </article>
+
+            <article id="historia">
+              <h3>200 anos de historia</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consequatur voluptate quos expedita molestiae dolorem voluptas, provident quis vitae id! Quas, voluptas. Magni at amet neque distinctio, consequatur, dolor natus officiis aliquam corporis sunt recusandae?</p>
+              <a href="#"><strong>Leia mais</strong></a>
+            </article>
+          
+            
+        </section>
+      </div>
+
+      <aside>
+        <section id="depoimento">
+          <img src="/assets/img/depoimento.png" alt="">
+        </section>
+        <section id="visita">
+          <h4>Faça uma visita</h4>
+          <form action="">
+            <fieldset>
+              <legend>Selecione uma data</legend>
+              <label for="data">Data</label>
+              <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+              <label for="qtd">Qtd </label>
+              <input class="campo" style="width: 30px;" type="number" id="qtd" value="3">
+            </fieldset>
+
+            <input class="botao" type="submit" value="Verificar disponibilidade">
+          </form>
+        </section>
+
+        <section id="galeria">
+          <h4>Galeria de fotos</h4>
+          <a href="#"><img src="./assets/img/imagem1.jpg" height="93" width="93"></a>
+
+          <a href="#"><img src="./assets/img/imagem2.jpg" height="93" width="93"></a>
+
+          <a href="#"><img src="./assets/img/imagem3.jpg" height="93" width="93"></a>
+
+          <a href="#"><img src="./assets/img/imagem4.jpg" height="93" width="93"></a>
+        </section>
+
+
+      </aside>
+      <footer>
+        <p>
+          <a href="#">Home</a>
+          <a href="#">Eposições</a>
+          <a href="#">Pesquisa</a>
+          <a href="#">Acervo</a>
+          <a href="#">Vídeos</a>
+          <a href="#">Fotos</a>
+          <a href="#">Contato</a>
+        </p>
+        <p>
+          2019 <a href="">Museu nacional</a> - Todos os direitos reservados.
+        </p>
+      </footer>
+    </div>
+    
+  </div>
+</body>
+</html>
